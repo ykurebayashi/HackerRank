@@ -1,4 +1,4 @@
 function birthdayCakeCandles(candles: number[]): number {
-  const max = Math.max(...candles);
+  const max:number = Math.max(...candles);
   return candles.filter((value) => (value === max)).length;
 }
